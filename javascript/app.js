@@ -1,3 +1,3 @@
-let a=22;
+let a=220;
 let b=2;
 print(a+b);
