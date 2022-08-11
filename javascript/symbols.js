@@ -1,26 +1,7 @@
-// let emp={
-//     name:"ab",
-//     age:"22",
-// };
+// importing greetPerson from greet.js file
+import { greetPerson } from './greeting.js';
 
-// let emp={
-//     name:"ab",
-//     age:"22",
-// };
-// let person = {
-//     name: "Jack"
-// };
+// using greetPerson() defined in greet.js
+let displayName = greetPerson('Jack');
 
-// creating Symbol
-let id = Symbol("id");
-
-// adding symbol as a key
-person[id] = 12;
-
-let person = {
-    name: "Jack"
-};
-
-let ids = Symbol("id");
-
-person[id] = "Another value";
+console.log(displayName); // Hello Jack
